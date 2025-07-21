@@ -6,11 +6,16 @@
   <title>Wunderlust Travel</title>
 </head>
 <body>
-  <a href="#main" class="skip-link">Skip to main content</a>
+  <!-- Skip link for accessibility -->
+  <a href="#main" class="skip-link" style="position: absolute; left: -999px; top: auto; width: 1px; height: 1px; overflow: hidden;">Skip to main content</a>
 
   <header>
-    <img src="images/logo.png" alt="Wunderlust Travel Logo" />
     <h1>Wunderlust Travel</h1>
+    <picture>
+      <source media="(min-width: 1024px)" srcset="images/logo-L.png">
+      <source media="(min-width: 780px)" srcset="images/logo-M.png">
+      <img src="images/logo-S.png" alt="Wunderlust Travel logo">
+    </picture>
     <p>Let Wunderlust Travel help you plan the trip of your dreams!</p>
     <nav>
       <ul>
@@ -28,13 +33,26 @@
       <p>Imagine an island with turquoise blue waters, secret coves, soft golden sands, lush green foliage, rugged mountains, picturesque villages and a vibrant capital city. The island and its capital, Palma, are overflowing with character, while its beaches are famous all around the world.</p>
       
       <div>
+        <!-- Majorca waves -->
         <picture>
-          <source media="(min-width: 1024px)" srcset="images/majorca-waves-1024w.png">
-          <source media="(min-width: 780px)" srcset="images/majorca-waves-780w.png">
-          <img src="images/majorca-waves-320w.png" alt="Waves on Majorca shoreline">
+          <source media="(min-width: 1024px)" srcset="images/majorca-waves-L.png">
+          <source media="(min-width: 780px)" srcset="images/majorca-waves-M.png">
+          <img src="images/majorca-waves-S.png" alt="Waves on Majorca shoreline">
         </picture>
-        <img src="images/majorca-beach.png" alt="Golden beach of Majorca">
-        <img src="images/majorca-cove.png" alt="Secluded cove in Majorca">
+
+        <!-- Majorca beach -->
+        <picture>
+          <source media="(min-width: 1024px)" srcset="images/majorca-beach-L.png">
+          <source media="(min-width: 780px)" srcset="images/majorca-beach-M.png">
+          <img src="images/majorca-beach-S.png" alt="Golden beach of Majorca">
+        </picture>
+
+        <!-- Majorca cove -->
+        <picture>
+          <source media="(min-width: 1024px)" srcset="images/majorca-cove-L.png">
+          <source media="(min-width: 780px)" srcset="images/majorca-cove-M.png">
+          <img src="images/majorca-cove-S.png" alt="Secluded cove in Majorca">
+        </picture>
       </div>
 
       <h3>Plan Your Trip</h3>
@@ -68,28 +86,44 @@
       <h2>Testimonials</h2>
 
       <article>
-        <img src="images/miranda-blake.png" alt="Miranda Blake">
+        <picture>
+          <source media="(min-width: 1024px)" srcset="images/miranda-blake-L.png">
+          <source media="(min-width: 780px)" srcset="images/miranda-blake-M.png">
+          <img src="images/miranda-blake-S.png" alt="Miranda Blake from London, England">
+        </picture>
         <h3>Miranda Blake</h3>
         <p><strong>Traveling From:</strong> London, England</p>
         <blockquote>“I traveled here for business, but my stay was extended. Now it is my home.”</blockquote>
       </article>
 
       <article>
-        <img src="images/max-winter.png" alt="Max Winter">
+        <picture>
+          <source media="(min-width: 1024px)" srcset="images/max-winter-L.png">
+          <source media="(min-width: 780px)" srcset="images/max-winter-M.png">
+          <img src="images/max-winter-S.png" alt="Max Winter from Berlin, Germany">
+        </picture>
         <h3>Max Winter</h3>
         <p><strong>Traveling From:</strong> Berlin, Germany</p>
         <blockquote>“Great escape from my reality. Beautiful sunsets, wonderful people, great beer.”</blockquote>
       </article>
 
       <article>
-        <img src="images/ines-villegoes.png" alt="Inés Villegoes">
+        <picture>
+          <source media="(min-width: 1024px)" srcset="images/ines-villegoes-L.png">
+          <source media="(min-width: 780px)" srcset="images/ines-villegoes-M.png">
+          <img src="images/ines-villegoes-S.png" alt="Inés Villegoes from Barcelona, Spain">
+        </picture>
         <h3>Inés Villegoes</h3>
         <p><strong>Traveling From:</strong> Barcelona, Spain</p>
         <blockquote>“A very safe environment for all travelers.”</blockquote>
       </article>
 
       <article>
-        <img src="images/carmen-lorenzo.png" alt="Carmen Lorenzo">
+        <picture>
+          <source media="(min-width: 1024px)" srcset="images/carmen-lorenzo-L.png">
+          <source media="(min-width: 780px)" srcset="images/carmen-lorenzo-M.png">
+          <img src="images/carmen-lorenzo-S.png" alt="Carmen Lorenzo from Madrid, Spain">
+        </picture>
         <h3>Carmen Lorenzo</h3>
         <p><strong>Traveling From:</strong> Madrid, Spain</p>
         <blockquote>“Live, laugh, love-- everything you need in Majorca.”</blockquote>
