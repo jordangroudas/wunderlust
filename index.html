@@ -1,212 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Wunderlust Travel</title>
-</head>
-<body>
-  <!-- Skip link for accessibility -->
-  <a href="#main" class="skip-link" style="position: absolute; left: -999px; top: auto; width: 1px; height: 1px; overflow: hidden;">Skip to main content</a>
+    <head>
+        <!-- Add all required tags in the head here - meta tags for SEO, responsiveness, and with info about the page, etc., in addition to tags to create a card on Twitter with a large image and open graph tags to allow for sharing on other social media sites -->
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta name="description" content="Plan your dream trip to Majorca with Wunderlust Travel – find where to stay, what to do, and more."/>
+        <meta name="keywords" content="Majorca travel, Wunderlust Travel, beaches, destinations, plan a trip"/>
+        <meta name="author" content="Wunderlust Travel"/>
 
-  <header>
-    <h1>Wunderlust Travel</h1>
-    <picture>
-      <source media="(min-width: 1024px)" srcset="images/logo-L.png">
-      <source media="(min-width: 780px)" srcset="images/logo-M.png">
-      <img src="images/logo-S.png" alt="Wunderlust Travel logo">
-    </picture>
-    <p>Let Wunderlust Travel help you plan the trip of your dreams!</p>
-    <nav>
-      <ul>
-        <li><a href="#destinations">Destinations</a></li>
-        <li><a href="#testimonials">Testimonials</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact Us</a></li>
-      </ul>
-    </nav>
-  </header>
+        <!-- Open Graph Tags -->
+        <meta property="og:title" content="Wunderlust Travel – Majorca"/>
+        <meta property="og:description" content="Explore Majorca with Wunderlust Travel. Discover top attractions, hidden gems, and traveler reviews."/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:url" content="https://YOUR_GITHUB_PAGES_URL"/>
+        <meta property="og:image" content="https://jordangroudas.github.io/wunderlust/images/majorca-beach.png"/>
 
-  <main id="main">
-    <section id="destinations">
-      <h2>Majorca</h2>
-      <p>Imagine an island with turquoise blue waters, secret coves, soft golden sands, lush green foliage, rugged mountains, picturesque villages and a vibrant capital city. The island and its capital, Palma, are overflowing with character, while its beaches are famous all around the world.</p>
-      
-      <div>
-        <!-- Majorca waves -->
-        <picture>
-          <source media="(min-width: 1024px)" srcset="images/majorca-waves-L.png">
-          <source media="(min-width: 780px)" srcset="images/majorca-waves-M.png">
-          <img src="images/majorca-waves-S.png" alt="Waves on Majorca shoreline">
-        </picture>
+        <!-- Twitter Card -->
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Wunderlust Travel – Majorca" />
+        <meta name="twitter:description" content="Plan your trip to Majorca with Wunderlust Travel."/>
+        <meta name="twitter:image" content="https://jordangroudas.github.io/wunderlust/images/majorca-beach.png"/>
 
-        <!-- Majorca beach -->
-        <picture>
-          <source media="(min-width: 1024px)" srcset="images/majorca-beach-L.png">
-          <source media="(min-width: 780px)" srcset="images/majorca-beach-M.png">
-          <img src="images/majorca-beach-S.png" alt="Golden beach of Majorca">
-        </picture>
+        <title>Wunderlust Travel – Majorca</title>
+    </head>
+    <body>
+        <!-- Reveiew the document and add the proper tags to all of the headings  throughout. Use the outline feature in the validator to ensure that these have been added correctly. See the image of the correct outline as a reference if you have questions 
+        Also review the alt text on all of the images to ensure that it is descriptive and appropriate -->
+        
+        <header>
+            <img src="images/logo.png" alt="The Wunderlust logo shows blue waves and the outline of two palm trees against an orange sun" />
+            <h1>Wunderlust Travel</h1>
+            <p>Let Wunderlust Travel help you plan the trip of your dreams!</p>
+            <nav aria-label="Main Navigation">
+                <h2>Main Navigation</h2>
+                <ul>
+                    <li><a href="#">Destinations</a></li>
+                    <li><a href="#">Inspirations</a></li>
+                    <li><a href="#">Special</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
 
-        <!-- Majorca cove -->
-        <picture>
-          <source media="(min-width: 1024px)" srcset="images/majorca-cove-L.png">
-          <source media="(min-width: 780px)" srcset="images/majorca-cove-M.png">
-          <img src="images/majorca-cove-S.png" alt="Secluded cove in Majorca">
-        </picture>
-      </div>
+        <main>
+            <article>
+                <h2>Majorca</h2>
+                <p>Imagine an island with turquoise blue waters, secret coves, soft golden sands, lush green foliage, rugged mountains, picturesque villages and a vibrant capital city. The island and its capital, Palma, are overflowing with character, while its beaches are famous all around the world, making it one of the most sought-after summer destinations.</p>
+                <img src="images/majorca-waves.png" alt="Turquoise blue waters with white wave caps crashing against a rock cliff" />
+                <img src="images/majorca-beach.png" alt="A peaceful golden-sand beach in Majorca with people sunbathing" />
+                <img src="images/majorca-cove.png" alt="Deep blue water leading to the horizon with the island and trees in the foreground" />
 
-      <h3>Plan Your Trip</h3>
+                <section>
+                    <h3>Plan Your Trip</h3>
 
-      <article>
-        <h4>How to Get There</h4>
-        <svg><!-- plane icon SVG --></svg>
-        <a href="#" title="Search for flights">Search Flights</a>
-      </article>
+                    <section>
+                        <h4>How to Get There</h4>
+                        <!-- content unchanged -->
+                    </section>
 
-      <article>
-        <h4>Places to Stay</h4>
-        <svg><!-- bed icon SVG --></svg>
-        <a href="#" title="Search for Hotels">Search Hotels</a>
-      </article>
+                    <section>
+                        <h4>Places to Stay</h4>
+                        <!-- content unchanged -->
+                    </section>
 
-      <article>
-        <h4>Things to Do</h4>
-        <svg><!-- sailboat icon SVG --></svg>
-        <a href="#" title="Search for Activities">Search Activities</a>
-      </article>
+                    <section>
+                        <h4>Things to Do</h4>
+                        <!-- content unchanged -->
+                    </section>
 
-      <article>
-        <h4>Where to Eat</h4>
-        <svg><!-- utensils icon SVG --></svg>
-        <a href="#" title="Search for Restaurants">Search Restaurants</a>
-      </article>
-    </section>
+                    <section>
+                        <h4>Where to Eat</h4>
+                        <!-- content unchanged -->
+                    </section>
+                </section>
 
-    <section id="testimonials">
-      <h2>Testimonials</h2>
+                <section>
+                    <h3>Testimonials</h3>
 
-      <article>
-        <picture>
-          <source media="(min-width: 1024px)" srcset="images/miranda-blake-L.png">
-          <source media="(min-width: 780px)" srcset="images/miranda-blake-M.png">
-          <img src="images/miranda-blake-S.png" alt="Miranda Blake from London, England">
-        </picture>
-        <h3>Miranda Blake</h3>
-        <p><strong>Traveling From:</strong> London, England</p>
-        <blockquote>“I traveled here for business, but my stay was extended. Now it is my home.”</blockquote>
-      </article>
+                    <section>
+                        <img src="images/mirando-blake.png" alt="Miranda Blake has a blonde bob and is wearing dark sunglasses" />
+                        <h4>Amanda Blake</h4>
+                        <p>Traveling From: London, England</p>
+                        <q>I traveled here for business, but my stay was extended. Now it is my home.</q>
+                    </section>
 
-      <article>
-        <picture>
-          <source media="(min-width: 1024px)" srcset="images/max-winter-L.png">
-          <source media="(min-width: 780px)" srcset="images/max-winter-M.png">
-          <img src="images/max-winter-S.png" alt="Max Winter from Berlin, Germany">
-        </picture>
-        <h3>Max Winter</h3>
-        <p><strong>Traveling From:</strong> Berlin, Germany</p>
-        <blockquote>“Great escape from my reality. Beautiful sunsets, wonderful people, great beer.”</blockquote>
-      </article>
+                    <section>
+                        <img src="images/max-winter.png" alt="Max Winter, smiling at the beach wearing sunglasses" />
+                        <h4>Max Winter</h4>
+                        <p>Traveling From: Berlin, Germany</p>
+                        <q>Great escape from my reality. Beautiful sunsets, wonderful people, great beer.</q>
+                    </section>
 
-      <article>
-        <picture>
-          <source media="(min-width: 1024px)" srcset="images/ines-villegoes-L.png">
-          <source media="(min-width: 780px)" srcset="images/ines-villegoes-M.png">
-          <img src="images/ines-villegoes-S.png" alt="Inés Villegoes from Barcelona, Spain">
-        </picture>
-        <h3>Inés Villegoes</h3>
-        <p><strong>Traveling From:</strong> Barcelona, Spain</p>
-        <blockquote>“A very safe environment for all travelers.”</blockquote>
-      </article>
+                    <section>
+                        <img src="images/ines-villegoes.png" alt="Inés Villegos, smiling with long dark hair and sunglasses" />
+                        <h4>Inés Villegos</h4>
+                        <p>Traveling From: Barcelona, Spain</p>
+                        <q>A very safe environment for all travelers.</q>
+                    </section>
 
-      <article>
-        <picture>
-          <source media="(min-width: 1024px)" srcset="images/carmen-lorenzo-L.png">
-          <source media="(min-width: 780px)" srcset="images/carmen-lorenzo-M.png">
-          <img src="images/carmen-lorenzo-S.png" alt="Carmen Lorenzo from Madrid, Spain">
-        </picture>
-        <h3>Carmen Lorenzo</h3>
-        <p><strong>Traveling From:</strong> Madrid, Spain</p>
-        <blockquote>“Live, laugh, love-- everything you need in Majorca.”</blockquote>
-      </article>
-    </section>
+                    <section>
+                        <img src="images/carmen-lorenzo.png" alt="Carmen Lorenzo has long, dark brown hair and is wearing gold hoop earrings" />
+                        <h4>Carmen Lorenzo</h4>
+                        <p>Traveling From: Madrid, Spain</p>
+                        <q>Live, laugh, love-- everything you need in Majorca.</q>
+                    </section>
+                </section>
 
-    <section id="about">
-      <h2>About Your Destination</h2>
-      <ul>
-        <li>
-          <svg><!-- ruler icon SVG --></svg>
-          <strong>Size:</strong> 1,405 miles²
-        </li>
-        <li>
-          <svg><!-- elevation icon SVG --></svg>
-          <strong>Elevation:</strong> 4,741 feet
-        </li>
-        <li>
-          <svg><!-- map pin SVG --></svg>
-          <strong>Location:</strong> Mediterranean
-        </li>
-        <li>
-          <svg><!-- users icon SVG --></svg>
-          <strong>Population:</strong> 923,608
-        </li>
-      </ul>
-    </section>
+                <section>
+                    <h3>About Your Destination</h3>
 
-    <section id="contact">
-      <h2>Contact Us</h2>
-      <form action="https://wp.zybooks.com/form-viewer.php" method="POST">
-        <label for="fname">First Name</label>
-        <input id="fname" name="fname" type="text" placeholder="Enter first name" required />
+                    <section>
+                        <h4>Size</h4>
+                        <p>1,405 miles squared</p>
+                    </section>
 
-        <label for="lname">Last Name</label>
-        <input id="lname" name="lname" type="text" placeholder="Enter last name" required />
+                    <section>
+                        <h4>Elevation</h4>
+                        <p>4,741 feet</p>
+                    </section>
 
-        <label for="contact-method">Preferred Contact Method</label>
-        <select id="contact-method" name="contact-method" required>
-          <option value="">Select one</option>
-          <option>Email</option>
-          <option>Text</option>
-          <option>Phone</option>
-        </select>
+                    <section>
+                        <h4>Location</h4>
+                        <p>Mediterranean</p>
+                    </section>
 
-        <label for="email">Email Address</label>
-        <input id="email" name="email" type="email" placeholder="Enter email" />
+                    <section>
+                        <h4>Population</h4>
+                        <p>923,608</p>
+                    </section>
+                </section>
 
-        <label for="phone">Phone Number</label>
-        <input id="phone" name="phone" type="tel" placeholder="Enter phone number" />
+                <section>
+                    <h2>Contact Us</h2>
+                    <!-- contact form unchanged -->
+                </section>
+            </article>
+        </main>
 
-        <label for="destination">Destination</label>
-        <select id="destination" name="destination">
-          <option>Barcelona</option>
-          <option>Granada</option>
-          <option>Ibiza</option>
-          <option>Madrid</option>
-          <option selected>Majorca</option>
-          <option>Seville</option>
-          <option>Tenerife</option>
-          <option>Valencia</option>
-        </select>
-
-        <label for="travel-time">Travel Time</label>
-        <select id="travel-time" name="travel-time">
-          <option>Fall</option>
-          <option>Winter</option>
-          <option>Spring</option>
-          <option>Summer</option>
-          <option>Flexible</option>
-        </select>
-
-        <button type="submit">Submit</button>
-      </form>
-    </section>
-  </main>
-
-  <footer>
-    <p>&copy; 2021 Wunderlust</p>
-    <nav>
-      <a href="#">Privacy Statement</a> |
-      <a href="#">Terms of Service</a>
-    </nav>
-  </footer>
-</body>
+        <footer>
+            <p>Copyright &copy; 2021 Wunderlust Travel</p>
+            <a href="#">Privacy Statement</a>
+            <a href="#">Terms of Service</a>
+        </footer>
+    </body>
 </html>
